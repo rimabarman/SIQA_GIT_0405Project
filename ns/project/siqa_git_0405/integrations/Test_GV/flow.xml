@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="DADA_GlobalVariable1" SERVICE="GB_1:readGlobalvariable">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>
