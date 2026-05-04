@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: SIQA_GIT_0405Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Call_deepclonetest
+    type: workflow
+    uid: fl1b9dc7176b723bcd06eaff
+    stepId: a0
+    reference: project.siqa_git_0405.integrations:deepclonetest
