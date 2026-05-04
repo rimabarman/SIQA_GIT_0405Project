@@ -7,10 +7,17 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+- name: TPP_services_in_FCS
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.siqa_git_0405.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_GIT_0405Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: pub.alert:emit
   packages:
@@ -19,6 +26,8 @@ services:
 - serviceName: project.siqa_git_0405.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_0405Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
