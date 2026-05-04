@@ -14,6 +14,7 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: DADA_GlobalVariable1
+  version: "1.0"
   gitServerName: SIQAGitHub
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -31,6 +32,30 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2105
+- serviceName: project.siqa_git_0405.integrations:Copy_Test_GV
+  packages:
+  - name: SIQA_GIT_0405Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: GB_1:readGlobalvariable
+  packages:
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
+- serviceName: project.siqa_git_0405.integrations:Test_GV
+  packages:
+  - name: SIQA_GIT_0405Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
 - serviceName: project.siqa_git_0405.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_0405Project
